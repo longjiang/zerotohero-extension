@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Overlay Hider",
+  "description": "This extension hides the YouTube pause overlay.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["hide_overlay.js"],
+      "css": ["hide_overlay.css"]
+    }
+  ],
+  "permissions": [
+    "https://www.youtube.com/"
+  ]
+}

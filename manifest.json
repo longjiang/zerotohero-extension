@@ -10,8 +10,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*", "https://languageplayer.io/*", "https://beta.languageplayer.io/*", "http://localhost:3000/*"],
-      "js": ["hide_overlay.js"],
-      "css": ["hide_overlay.css"],
+      "js": ["zerotohero_extension.js"],
+      "css": ["zerotohero_extension.css"],
       "all_frames": true,
       "match_about_blank": true
     }
